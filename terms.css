@@ -85,3 +85,15 @@ nav {
         opacity: 1;
         
     }
+
+.blog{
+
+    margin: 2% 2%;
+}
+
+
+.info a {
+
+    color: black;
+    text-decoration: none;
+} 

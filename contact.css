@@ -235,3 +235,72 @@ nav {
     font-size: 15px;  
 }
 
+.burger {
+
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 25px;
+}
+
+.line1 {
+
+    width: 33px;
+    background:white;
+    margin: 3px 3px;
+    height: 4px;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .container {
+
+        height: 110vh;
+        overflow: hidden;
+    }
+
+    .logo {
+
+        position: absolute;
+        right: 60%;
+        top: 0.7%;
+    }
+
+    .nav-bar {
+
+        flex-direction: column;
+
+    }
+
+    .navbar {
+
+        flex-direction: column;
+        transition: all 0.8s ease-out;
+        height: 220px;
+    }
+
+    .burger {
+
+        display: block;
+    }
+
+    .h-nav {
+
+        height: 72px;
+    }
+
+    .v {
+
+        opacity: 0;
+    }
+
+    .nav-bar li {
+
+        padding: 15px 0px;
+
+    }
+
+
+}

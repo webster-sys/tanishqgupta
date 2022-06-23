@@ -218,3 +218,125 @@ nav {
     color: black;
 
 }
+
+.burger {
+
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 25px;
+}
+
+.line1 {
+
+    width: 33px;
+    background:white;
+    margin: 3px 3px;
+    height: 4px;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .container {
+
+        height: 120vh;
+        overflow: hidden;
+    }
+
+    .nav-bar {
+
+        flex-direction: column;
+
+    }
+
+    .navbar {
+
+        flex-direction: column;
+        transition: all 0.8s ease-out;
+        height: 220px;
+    }
+
+    .burger {
+
+        display: block;
+    }
+
+    .h-nav {
+
+        height: 72px;
+    }
+
+    .v {
+
+        opacity: 0;
+    }
+
+    .nav-bar li {
+
+        padding: 15px 0px;
+
+    }
+
+    .logo {
+
+        position: absolute;
+        right: 60%;
+        top: 0.7%;
+    }
+
+    .grid .blog .footer {
+
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .item1 {
+
+        margin-top: 55px;
+    }
+
+    .item1 p {
+
+       font-size: 20px;
+
+    }
+
+    .item1 h1 {
+
+        font-size: 40px;
+    }
+
+    .item1 h2 {
+
+        font-size: 20px;
+    }
+    
+    .info {
+
+        text-align: left;
+        margin: 50px 10px;
+        margin-bottom: 150px;
+    }
+
+    .info p {
+
+        font-size: 15px;
+        top: 32%;
+        right: 1%;
+    }
+
+    .footer {
+
+        font-size: 0px;
+        margin: 150px;
+        transform: translate(-40%);
+        width: 100%;
+
+    }
+
+    .copyright {
+
+        margin-left: 10px;
+    }
+}

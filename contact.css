@@ -331,6 +331,7 @@ nav {
     
     .footer {
 
-        margin: 20px 0px;
+        position: absolute;
+        top: 95%;
     }
 }

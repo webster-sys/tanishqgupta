@@ -302,5 +302,35 @@ nav {
 
     }
 
+    .grid .blog .footer {
 
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .item1 {
+
+        margin-top: 50px;
+    }
+
+    .item1 p {
+
+       font-size: 20px;
+
+    }
+
+    .item1 h1 {
+
+        font-size: 40px;
+    }
+
+    .item1 h2 {
+
+        font-size: 20px;
+    }
+    
+    .footer {
+
+        margin: 20px 0px;
+    }
 }
